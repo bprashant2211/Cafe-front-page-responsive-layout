@@ -1,0 +1,146 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar{
+  background-color:#ffffff00;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+  color:black;
+  font-size:25px;
+  font-family: 'abrahamlincoln', cursive;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color: rgb(252, 8, 8);
+}
+
+
+
+.navbar-nav{
+  padding-left: 150px;
+  text-indent: 30px;
+}
+
+.container>p{
+  font-size: 15px;
+  line-height: 28px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 20px;
+}
+
+.container-fluid {
+  position: relative;
+  text-align: center;
+  color: rgba(39, 37, 37, 0.678);
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  top: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container-fluid>h4>p{
+  font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family:'abrahamlincoln', cursive;
+}
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #ffffff00;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: rgb(43, 40, 40);
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background:#ffffff00;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color:rgb(196, 193, 193);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color:rgb(108, 250, 13);
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+
+
+.fab,.far{
+  margin-top: 20px;
+  font-size: 30px;
+  color:white ;
+  background-color:none;
+}
